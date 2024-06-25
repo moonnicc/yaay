@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/b2/42/86/b2428647cce390034683a119a66daac8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: inline-start;
+}
+
+p {
+    font-size: 20px;
+    padding: 25px;
+   color: burlywood;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mmlt {
+    width:auto;
+    height: auto;
+    float: inline-end;
+    margin-bottom: 40px;
+    display: flex;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+
+}
+
+.gift {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img {
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#img1, #img2 {
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
